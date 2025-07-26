@@ -10,9 +10,9 @@ import 'package:studytogether_v1/src/data/services/firebase_realtime_service.dar
 class BookLogic extends GetxController {
   final FirebaseDatabaseService databaseService;
   final cloudinary = Cloudinary.signedConfig(
-    apiKey: "695854958164945",
-    apiSecret: "DxEHblN4zAs19_-1h-rq-RR9U-M",
-    cloudName: "diizgvtq9",
+    apiKey: "YOUR_API_KEY",
+    apiSecret: "YOUR_API_SECRET",
+    cloudName: "YOUR_CLOUD_NAME",
   );
 
   BookLogic(this.databaseService);

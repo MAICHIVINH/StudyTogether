@@ -10,10 +10,10 @@ import 'package:wechat_assets_picker/wechat_assets_picker.dart';
 
 class CreatePostLogic {
   final FirebaseDatabaseService databaseService;
-  final cloudinary = Cloudinary.signedConfig(
-    apiKey: "695854958164945",
-    apiSecret: "DxEHblN4zAs19_-1h-rq-RR9U-M",
-    cloudName: "diizgvtq9",
+    final cloudinary = Cloudinary.signedConfig(
+    apiKey: "YOUR_API_KEY",
+    apiSecret: "YOUR_API_SECRET",
+    cloudName: "YOUR_CLOUD_NAME",
   );
 
   CreatePostLogic(this.databaseService);

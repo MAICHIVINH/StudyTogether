@@ -29,10 +29,11 @@ class SignUpLogic extends GetxController {
   final _auth = FirebaseAuth.instance;
   final FirebaseDatabaseService databaseService;
   final cloudinary = Cloudinary.signedConfig(
-    apiKey: "214573957452952",
-    apiSecret: "jrd24kxZBuTd2ovucDeNHftyccY",
-    cloudName: "dukqsdc4b",
+    apiKey: "YOUR_API_KEY",
+    apiSecret: "YOUR_API_SECRET",
+    cloudName: "YOUR_CLOUD_NAME",
   );
+
   SignUpLogic({required this.databaseService});
 
   @override

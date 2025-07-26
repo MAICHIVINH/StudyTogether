@@ -5,8 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 class FirebaseDatabaseService {
   final database = FirebaseDatabase.instanceFor(
     app: Firebase.app(),
-    databaseURL:
-        "https://studytogether-32111-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com/",
   );
 
   void checkConection() {
