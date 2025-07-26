@@ -1,0 +1,48 @@
+{
+  "client": [
+    {
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC0ScqrSGWspUfAokE2WcXCf9NxQMplR4"
+        }
+      ],
+      "client_info": {
+        "android_client_info": {
+          "package_name": "com.example.studytogether_v1"
+        },
+        "mobilesdk_app_id": "1:675626105491:android:07d09e806183bd42ef6b66"
+      },
+      "oauth_client": [
+        {
+          "android_info": {
+            "certificate_hash": "d5922e23c6afed7965cc09bfa4ae5558eeebf63f",
+            "package_name": "com.example.studytogether_v1"
+          },
+          "client_id": "675626105491-n3p7j3n3e31t033n0o5ila6a6isgn12t.apps.googleusercontent.com",
+          "client_type": 1
+        },
+        {
+          "client_id": "675626105491-8o16uip2rhkcls5jakpc1fu9gfv6tkk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675626105491-8o16uip2rhkcls5jakpc1fu9gfv6tkk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+  "project_info": {
+    "firebase_url": "https://studytogether-32111-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "studytogether-32111",
+    "project_number": "621594691549",
+    "storage_bucket": "studytogether-32111.appspot.com"
+  }
+}
